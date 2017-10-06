@@ -21,6 +21,7 @@ public:
   int width() const;
   int height() const;
   int area() const;
+  int perimeter() const;
 private:
   Point bottom_left, top_right;
 };

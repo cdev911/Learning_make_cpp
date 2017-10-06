@@ -13,5 +13,6 @@ int main(int argc, char const *argv[]) {
   Rectangle rec = Rectangle(bottom_left, top_right);
 
   std::cout << "area of the Rectangle is " << rec.area() << '\n';
+  std::cout << "perimeter of the Rectangle is " <<rec.perimeter() << '\n';
   return 0;
 }

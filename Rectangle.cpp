@@ -48,3 +48,7 @@ int Rectangle::area() const
 {
   return width() * height();
 }
+int Rectangle::perimeter() const
+{
+  return 2 * (width() + height());
+}
