@@ -1,7 +1,7 @@
 # makefile for learning make project
 
 ## in this section we define the Varibles
-## the general for in VARIABLE = value
+## the general form in VARIABLE = value
 CXX = g++
 CXXFLAGS = 	-Wall -o3 -g
 
